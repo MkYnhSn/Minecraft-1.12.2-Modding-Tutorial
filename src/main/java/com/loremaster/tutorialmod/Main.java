@@ -1,5 +1,6 @@
 package com.loremaster.tutorialmod;
 
+import com.loremaster.tutorialmod.init.ModRecipes;
 import com.loremaster.tutorialmod.proxy.CommonProxy;
 import com.loremaster.tutorialmod.util.Reference;
 
@@ -29,7 +30,7 @@ public class Main {
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler
